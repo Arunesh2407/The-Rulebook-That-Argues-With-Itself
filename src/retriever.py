@@ -13,21 +13,34 @@ class Retriever:
         self.embedding_fn = embedding_functions.SentenceTransformerEmbeddingFunction(
             model_name="sentence-transformers/all-MiniLM-L6-v2"
         )
-        self.client = chromadb.PersistentClient(path=persist_dir)
+        self.persist_dir = persist_dir
         self.collection_name = collection_name
+        self.client = chromadb.PersistentClient(path=self.persist_dir)
+        self._get_or_create_coll()
+
+    def _get_or_create_coll(self):
         self.collection = self.client.get_or_create_collection(
             name=self.collection_name,
             embedding_function=self.embedding_fn
         )
+        return self.collection
 
     def build_index(self, chunks: List[Dict[str, Any]], force_rebuild: bool = False):
-        if force_rebuild or self.collection.count() == 0:
-            if self.collection.count() > 0:
+        try:
+            coll = self._get_or_create_coll()
+            count = coll.count()
+        except Exception:
+            count = 0
+
+        if force_rebuild or count == 0:
+            try:
                 self.client.delete_collection(self.collection_name)
-                self.collection = self.client.get_or_create_collection(
-                    name=self.collection_name,
-                    embedding_function=self.embedding_fn
-                )
+            except Exception:
+                pass
+            coll = self.client.get_or_create_collection(
+                name=self.collection_name,
+                embedding_function=self.embedding_fn
+            )
             
             ids = [c["chunk_id"] for c in chunks]
             documents = [c["content"] for c in chunks]
@@ -40,17 +53,40 @@ class Retriever:
                 }
                 metadatas.append(meta)
 
-            self.collection.add(
+            coll.add(
                 ids=ids,
                 documents=documents,
                 metadatas=metadatas
             )
+            self.collection = coll
 
     def retrieve(self, query: str, top_k: int = 5) -> List[Dict[str, Any]]:
-        results = self.collection.query(
-            query_texts=[query],
-            n_results=top_k
-        )
+        try:
+            coll = self._get_or_create_coll()
+            if coll.count() == 0:
+                chunks = parse_all_documents()
+                self.build_index(chunks, force_rebuild=True)
+                coll = self._get_or_create_coll()
+        except Exception:
+            chunks = parse_all_documents()
+            self.build_index(chunks, force_rebuild=True)
+            coll = self._get_or_create_coll()
+
+        try:
+            results = coll.query(
+                query_texts=[query],
+                n_results=top_k
+            )
+        except Exception as e:
+            # If collection was deleted by another process (NotFoundError), force rebuild and retry
+            print(f"[Retriever] Collection error ({e}). Rebuilding index...", flush=True)
+            chunks = parse_all_documents()
+            self.build_index(chunks, force_rebuild=True)
+            coll = self._get_or_create_coll()
+            results = coll.query(
+                query_texts=[query],
+                n_results=top_k
+            )
         
         retrieved_chunks = []
         if results and results.get("documents") and len(results["documents"]) > 0:
