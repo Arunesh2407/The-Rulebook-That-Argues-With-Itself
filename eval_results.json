@@ -1,0 +1,1689 @@
+{
+  "summary": {
+    "total_queries": 38,
+    "overall_accuracy_pct": 84.21,
+    "contradiction_accuracy": "2/3",
+    "contradiction_accuracy_pct": 66.67,
+    "unanswerable_rejection_rate": "21/25",
+    "unanswerable_rejection_rate_pct": 84.0,
+    "answers_accuracy": "9/10",
+    "answers_accuracy_pct": 90.0,
+    "elapsed_seconds": 772.56
+  },
+  "results": [
+    {
+      "id": 1,
+      "query": "Who controls the official academic record when an informal advising comment differs from registrar records?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "The official academic record is controlled by the registrar\u2019s contemporaneous record (and the office authorized to implement the rule). Informal advising comments do not override that record.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "excerpt": "the controlling standard is the published rule, the contemporaneous record maintained by the registrar, and the documented exercise of authority by the office charged with implementing the rule. Administrative convenience, informal advice, or prior tolerance of a different practice does not create an entitlement unless the regulation expressly recognizes such discretion."
+        },
+        {
+          "file": "handbook.md",
+          "section": "1. General Academic Regulations",
+          "excerpt": "the controlling standard is the published rule, the contemporaneous record maintained by the registrar, and the documented exercise of authority by the office charged with implementing the rule. Administrative convenience, informal advice, or prior tolerance of a different practice does not create an entitlement unless the regulation expressly recognizes such discretion."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_021",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_001",
+          "file": "handbook.md",
+          "section": "1. General Academic Regulations",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_011",
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_020",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_002",
+          "file": "handbook.md",
+          "section": "1. General Academic Regulations",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "query": "What kinds of conduct are listed as academic integrity violations?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "The handbook lists the following conduct as academic integrity violations: plagiarism, unauthorized collaboration, fabrication of data, contract cheating, impersonation, misuse of artificial intelligence contrary to course instructions, possession of unauthorized materials in an assessment, and interference with another student's academic work.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "excerpt": "Prohibited conduct includes plagiarism, unauthorized collaboration, fabrication of data, contract cheating, impersonation, misuse of artificial intelligence contrary to course instructions, possession of unauthorized materials in an assessment, and interference with another student's academic work."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_010",
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_011",
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_001",
+          "file": "handbook.md",
+          "section": "1. General Academic Regulations",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_005",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "query": "What must continuous assessment course outlines identify?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "Continuous assessment course outlines must identify the components, weights, due dates, late\u2011submission rules, and minimum performance conditions for continuous assessment.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "excerpt": "Each course outline shall identify the components, weights, due dates, late submission rules, and minimum performance conditions for continuous assessment."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_008",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "query": "What is a student grievance according to the handbook?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "A student grievance is defined in the handbook as a written request to review an academic decision because it was affected by procedural error, bias, misapplication of a published rule, failure to consider required evidence, or another substantial irregularity.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "excerpt": "A student grievance is a written request for review of an academic decision on the ground that the decision was affected by procedural error, bias, misapplication of a published rule, failure to consider required evidence, or other substantial irregularity."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_017",
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_018",
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_010",
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_022",
+          "file": "handbook.md",
+          "section": "7.3 Departmental Waiver Determinations for Majors",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_001",
+          "file": "handbook.md",
+          "section": "1. General Academic Regulations",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "query": "What documentation is needed to request a prerequisite waiver?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "To request a prerequisite waiver, the student must submit their transcript, a course description for any proposed equivalent study, evidence of relevant professional or laboratory experience (if applicable), and a statement explaining how their preparation satisfies the learning outcomes protected by the prerequisite.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "4.1 Authority for Prerequisite Waivers",
+          "excerpt": "A request for waiver must include the student's transcript, the course description for any proposed equivalent study, evidence of relevant professional or laboratory experience where applicable, and a statement explaining how the student's preparation satisfies the learning outcomes protected by the prerequisite."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_013",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_012",
+          "file": "handbook.md",
+          "section": "4.1 Authority for Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_015",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_014",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_022",
+          "file": "handbook.md",
+          "section": "7.3 Departmental Waiver Determinations for Majors",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "query": "Who schedules final examinations under the academic regulations?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "Under the academic regulations, final examinations are scheduled by the registrar.",
+      "citations": [
+        {
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "excerpt": "Final examinations are scheduled by the registrar to support integrity, accessibility, room utilization, and the orderly submission of grades."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_008",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "query": "What is an incomplete grade used for?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "An incomplete grade is a temporary transcript notation that is applied only when a small, clearly defined portion of course work remains and the student was otherwise passing the course at the time the condition arose.",
+      "citations": [
+        {
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "excerpt": "An incomplete grade is a temporary transcript notation used only when a small, clearly defined portion of work remains and the student was otherwise passing the course at the time the condition arose."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "query": "What kinds of learning do the credit transfer protocols exclude?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "The credit transfer protocols exclude credit for informal learning, attendance without assessment, non\u2011credit workshops, and professional experience (unless a separate prior\u2011learning assessment process is approved).",
+      "citations": [
+        {
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "excerpt": "Transfer credit is not awarded for informal learning, attendance without assessment, non-credit workshops, or professional experience unless a separate prior learning assessment process is approved."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "handbook_001",
+          "file": "handbook.md",
+          "section": "1. General Academic Regulations",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_021",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_020",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "query": "What may academic probation conditions include?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "UNANSWERED",
+      "is_correct": false,
+      "answer": "The provided passages do not contain explicit information about what conditions may be included in academic probation.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_005",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 5
+        },
+        {
+          "chunk_id": "handbook_010",
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_006",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 6
+        },
+        {
+          "chunk_id": "handbook_011",
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "query": "What is the late penalty for the term tuition balance?",
+      "expected_state": "ANSWERS",
+      "predicted_state": "ANSWERS",
+      "is_correct": true,
+      "answer": "The late penalty for the term tuition balance is 2% of the balance after the payment deadline, an additional 3% after 30 days, and a registration hold after 45 days.",
+      "citations": [
+        {
+          "file": "fee_schedule.csv",
+          "section": "Term tuition balance",
+          "excerpt": "Late Payment Penalties: 2% of balance after deadline; additional 3% after 30 days; registration hold after 45 days"
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_002",
+          "file": "fee_schedule.csv",
+          "section": "Term tuition balance",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_001",
+          "file": "fee_schedule.csv",
+          "section": "Tuition deposit",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_006",
+          "file": "fee_schedule.csv",
+          "section": "Graduation application fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_007",
+          "file": "fee_schedule.csv",
+          "section": "Course overload surcharge",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 11,
+      "query": "Can a student with 68% attendance sit a final exam if the instructor says strong continuous evaluation performance justifies it?",
+      "expected_state": "CONTRADICTION",
+      "predicted_state": "CONTRADICTION",
+      "is_correct": true,
+      "answer": "The passages conflict: one states that any student with attendance below 75% is ineligible for the final exam and that no faculty member has discretion to waive this floor, while another permits an instructor to lower the eligibility threshold to 65% for students with strong continuous evaluation performance. Because these rules are mutually exclusive, the policy is contradictory regarding whether a student with 68% attendance can sit the exam based on instructor justification.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "excerpt": "No student whose verified attendance in a course is below seventy-five percent (75%) may sit for the final examination in that course, and no faculty member, advisor, chair, or committee has discretion to reduce, excuse, round, or otherwise waive this minimum examination eligibility floor."
+        },
+        {
+          "file": "handbook.md",
+          "section": "5.2 Instructor Adjustment of Examination Eligibility",
+          "excerpt": "An individual course instructor may lower the final examination eligibility threshold to sixty-five percent (65%) for a student who has demonstrated satisfactory continuous evaluation performance, timely completion of formative work, and responsible engagement with required academic support."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_016",
+          "file": "handbook.md",
+          "section": "5.2 Instructor Adjustment of Examination Eligibility",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "query": "Who has final authority to waive a prerequisite course: the Dean of Academic Affairs or the Department Head for a major?",
+      "expected_state": "CONTRADICTION",
+      "predicted_state": "CONTRADICTION",
+      "is_correct": true,
+      "answer": "The passages present conflicting statements about who holds final authority for prerequisite waivers. Passage\u202f[1] states that only the Dean of Academic Affairs can waive a published prerequisite, with department heads providing only advisory input. In contrast, Passage\u202f[2] asserts that the Department Head has final, non\u2011reviewable authority to grant prerequisite waivers for majors. These two rules are mutually exclusive, creating a contradiction regarding the ultimate decision\u2011maker for prerequisite waivers.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "4.1 Authority for Prerequisite Waivers",
+          "excerpt": "Only the Dean of Academic Affairs has authority to waive a published prerequisite course, and recommendations from advisors, instructors, program coordinators, or department heads are advisory only until the Dean issues a written approval."
+        },
+        {
+          "file": "handbook.md",
+          "section": "7.3 Departmental Waiver Determinations for Majors",
+          "excerpt": "For majors housed within a department, the Department Head possesses final, non-reviewable authority to grant prerequisite waivers when the Head determines that the student's preparation is substantially equivalent to the stated prerequisite."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_012",
+          "file": "handbook.md",
+          "section": "4.1 Authority for Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_022",
+          "file": "handbook.md",
+          "section": "7.3 Departmental Waiver Determinations for Majors",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_013",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_014",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_015",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "query": "For a medical absence, does the student need hospital documentation within 48 hours of missed work or Campus Health Center validation within seven business days after returning?",
+      "expected_state": "CONTRADICTION",
+      "predicted_state": "ANSWERS",
+      "is_correct": false,
+      "answer": "Both requirements apply: a medical\u2011absence petition must include hospital documentation submitted within forty\u2011eight (48) hours of the missed work, and the Campus Health Center must validate the medical excuse within seven business days after the student returns to classes.",
+      "citations": [
+        {
+          "file": "academic_regulations.pdf",
+          "section": "3.2 Medical Absence Petitions Affecting Assessed Work",
+          "excerpt": "Medical absence petitions require hospital documentation submitted within forty\u2011eight (48) hours of the missed work to be eligible for an excused grade;"
+        },
+        {
+          "file": "handbook.md",
+          "section": "6.1 Medical Excuse Validation",
+          "excerpt": "Medical excuses must be validated by the Campus Health Center within seven business days following the student's return to classes,"
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_004",
+          "file": "academic_regulations.pdf",
+          "section": "3.2 Medical Absence Petitions Affecting Assessed Work",
+          "page": 4
+        },
+        {
+          "chunk_id": "handbook_019",
+          "file": "handbook.md",
+          "section": "6.1 Medical Excuse Validation",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_004",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_006",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 6
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 14,
+      "query": "May a student miss a laboratory practical to attend a sibling's wedding and still receive attendance credit?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "ANSWERS",
+      "is_correct": false,
+      "answer": "No. The university\u2019s attendance policy states that only certain authorized reasons (e.g., university representation, documented disability accommodation, religious observance, verified emergency response) may be noted, and even then such notation does not award attendance for a session the student missed. A sibling\u2019s wedding is not listed as an authorized reason, so a student cannot miss a laboratory practical for that event and still receive attendance credit.",
+      "citations": [
+        {
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "excerpt": "Authorized participation in University representation, documented disability accommodation, religious observance recorded in advance, and verified emergency response service may justify administrative notation, but such notation does not itself award attendance for a session in which the student did not participate."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_004",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "handbook_005",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "query": "Can students in a different time zone take a final examination remotely at midnight local time?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any information about whether students in different time zones may take a final examination remotely at midnight local time.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 16,
+      "query": "Is there a tuition fee waiver for inter-college varsity athletes who travel for championship events?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain information about a tuition fee waiver for inter-college varsity athletes who travel for championship events.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_001",
+          "file": "fee_schedule.csv",
+          "section": "Tuition deposit",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_002",
+          "file": "fee_schedule.csv",
+          "section": "Term tuition balance",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_015",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 17,
+      "query": "How many counseling sessions are required before a medical leave request can be approved?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any information about a required number of counseling sessions before a medical leave request can be approved.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_004",
+          "file": "academic_regulations.pdf",
+          "section": "3.2 Medical Absence Petitions Affecting Assessed Work",
+          "page": 4
+        },
+        {
+          "chunk_id": "academic_regulations_006",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 6
+        },
+        {
+          "chunk_id": "academic_regulations_005",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 5
+        },
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_008",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 18,
+      "query": "Are students allowed to use a smartwatch as a calculator during statistics examinations?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "ANSWERS",
+      "is_correct": false,
+      "answer": "No. The examination policy states that possession of unauthorized programmable resources\u2014including devices such as smartwatches used as calculators\u2014is treated as an integrity violation. Therefore, students may not use a smartwatch as a calculator during statistics examinations unless it is expressly authorized by the university.",
+      "citations": [
+        {
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "excerpt": "Possession of unauthorized notes, communication devices, or programmable resources is treated as an integrity matter even if the student asserts that the item was not used."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_003",
+          "file": "handbook.md",
+          "section": "1. General Academic Regulations",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_008",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 19,
+      "query": "Can a student replace a failed course grade by completing a massive open online course over winter break?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain explicit policy permitting a student to replace a failed course grade by completing a massive open online course over winter break.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "fee_schedule_007",
+          "file": "fee_schedule.csv",
+          "section": "Course overload surcharge",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_005",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": 20,
+      "query": "What refund applies if a student drops only the lecture but keeps the linked laboratory section?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain information about refunds for dropping only the lecture while keeping the laboratory section.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_007",
+          "file": "fee_schedule.csv",
+          "section": "Course overload surcharge",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_001",
+          "file": "fee_schedule.csv",
+          "section": "Tuition deposit",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 21,
+      "query": "Does the University provide a grace period for fee payments when a bank transfer is delayed by a holiday in another country?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any information about a grace period for fee payments when a bank transfer is delayed by a holiday in another country.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_008",
+          "file": "fee_schedule.csv",
+          "section": "International student services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_006",
+          "file": "fee_schedule.csv",
+          "section": "Graduation application fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_002",
+          "file": "fee_schedule.csv",
+          "section": "Term tuition balance",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        }
+      ]
+    },
+    {
+      "id": 22,
+      "query": "May a graduating senior appeal directly to the president to bypass the ordinary grievance process?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any statement permitting a graduating senior to appeal directly to the president in order to bypass the ordinary grievance process.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_017",
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_018",
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_020",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_021",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_005",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 5
+        }
+      ]
+    },
+    {
+      "id": 23,
+      "query": "Can a student with a religious fasting obligation receive extra time on all continuous assessments?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any explicit rule or provision about granting extra time on continuous assessments for students with a religious fasting obligation.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_008",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_016",
+          "file": "handbook.md",
+          "section": "5.2 Instructor Adjustment of Examination Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        }
+      ]
+    },
+    {
+      "id": 24,
+      "query": "Are doctoral dissertation defenses governed by the same attendance percentage used for undergraduate final exams?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any information about doctoral dissertation defenses or whether they are subject to the same 75% attendance requirement that applies to undergraduate final examinations.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "handbook_004",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_005",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "query": "May a student audit a prerequisite after enrolling in the advanced course for credit?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain explicit information about whether a student may audit a prerequisite after enrolling in the advanced course for credit.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "handbook_013",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_012",
+          "file": "handbook.md",
+          "section": "4.1 Authority for Prerequisite Waivers",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_006",
+          "file": "fee_schedule.csv",
+          "section": "Graduation application fee",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 26,
+      "query": "Does military reserve training automatically excuse missed quizzes without documentation?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any explicit rule stating that military reserve training automatically excuses missed quizzes without documentation.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_019",
+          "file": "handbook.md",
+          "section": "6.1 Medical Excuse Validation",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_004",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_021",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 27,
+      "query": "Are international exchange students exempt from the technology services fee if they bring their own laptop?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any information indicating that international exchange students are exempt from the technology services fee when they bring their own laptop.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_008",
+          "file": "fee_schedule.csv",
+          "section": "International student services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "fee_schedule_006",
+          "file": "fee_schedule.csv",
+          "section": "Graduation application fee",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 28,
+      "query": "Can a department award transfer credit for professional experience without a prior learning assessment process?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "ANSWERS",
+      "is_correct": false,
+      "answer": "No. According to the university\u2019s credit transfer protocol, professional experience cannot be awarded transfer credit unless a separate prior\u2011learning assessment process is approved.",
+      "citations": [
+        {
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "excerpt": "Transfer credit is not awarded for informal learning, attendance without assessment, non-credit workshops, or professional experience unless a separate prior learning assessment process is approved."
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "fee_schedule_006",
+          "file": "fee_schedule.csv",
+          "section": "Graduation application fee",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_006",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 6
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 29,
+      "query": "What is the deadline for requesting a pet-friendly residence accommodation during final examinations?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain information about the deadline for requesting a pet\u2011friendly residence accommodation during final examinations.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_004",
+          "file": "academic_regulations.pdf",
+          "section": "3.2 Medical Absence Petitions Affecting Assessed Work",
+          "page": 4
+        },
+        {
+          "chunk_id": "fee_schedule_005",
+          "file": "fee_schedule.csv",
+          "section": "Residence meal plan",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 30,
+      "query": "Can a student submit a grievance anonymously through a class representative?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any explicit information about whether a student may submit a grievance anonymously through a class representative.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_018",
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_017",
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_022",
+          "file": "handbook.md",
+          "section": "7.3 Departmental Waiver Determinations for Majors",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_004",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_010",
+          "file": "handbook.md",
+          "section": "4. Academic Integrity & Disciplinary Sanctions",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 31,
+      "query": "Is a student allowed to pause an online proctored exam because of neighborhood construction noise?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain explicit policy addressing whether a student may pause an online proctored exam because of neighborhood construction noise.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_009",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_008",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        }
+      ]
+    },
+    {
+      "id": 32,
+      "query": "What meal plan refund applies when a student withdraws for study abroad after day 20 of the term?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "ANSWERS",
+      "is_correct": false,
+      "answer": "The meal\u2011plan refund is 0\u202f% (no refund) for a withdrawal after day\u202f20 of the term.",
+      "citations": [
+        {
+          "file": "fee_schedule.csv",
+          "section": "Residence meal plan",
+          "excerpt": "After day 14: 0%"
+        }
+      ],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_005",
+          "file": "fee_schedule.csv",
+          "section": "Residence meal plan",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_008",
+          "file": "fee_schedule.csv",
+          "section": "International student services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_001",
+          "file": "fee_schedule.csv",
+          "section": "Tuition deposit",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_002",
+          "file": "fee_schedule.csv",
+          "section": "Term tuition balance",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 33,
+      "query": "Do siblings enrolled at the same time receive a discount on laboratory and studio fees?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The retrieved passages do not contain any information about a discount for siblings enrolled at the same time on laboratory and studio fees.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_004",
+          "file": "fee_schedule.csv",
+          "section": "Technology services fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_007",
+          "file": "fee_schedule.csv",
+          "section": "Course overload surcharge",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_002",
+          "file": "fee_schedule.csv",
+          "section": "Term tuition balance",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_001",
+          "file": "fee_schedule.csv",
+          "section": "Tuition deposit",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 34,
+      "query": "Can students postpone a make-up examination because their internship supervisor schedules a conflicting shift?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain explicit textual evidence addressing whether a student may postpone a make\u2011up examination due to a conflicting internship supervisor shift.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_007",
+          "file": "handbook.md",
+          "section": "3. Continuous Assessment",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_016",
+          "file": "handbook.md",
+          "section": "5.2 Instructor Adjustment of Examination Eligibility",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 35,
+      "query": "Are campus parking fines treated as academic holds under the fee schedule?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The retrieved passages do not contain any information indicating that campus parking fines are treated as academic holds under the fee schedule.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "fee_schedule_007",
+          "file": "fee_schedule.csv",
+          "section": "Course overload surcharge",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_003",
+          "file": "fee_schedule.csv",
+          "section": "Laboratory and studio fees",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_001",
+          "file": "fee_schedule.csv",
+          "section": "Tuition deposit",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_006",
+          "file": "fee_schedule.csv",
+          "section": "Graduation application fee",
+          "page": null
+        },
+        {
+          "chunk_id": "fee_schedule_002",
+          "file": "fee_schedule.csv",
+          "section": "Term tuition balance",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 36,
+      "query": "Can a student use a department social media announcement as official notice of a deadline extension?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain explicit textual evidence that a department social media announcement can be used as official notice of a deadline extension.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_018",
+          "file": "handbook.md",
+          "section": "6. Student Grievances",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_021",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_004",
+          "file": "academic_regulations.pdf",
+          "section": "3.2 Medical Absence Petitions Affecting Assessed Work",
+          "page": 4
+        },
+        {
+          "chunk_id": "handbook_020",
+          "file": "handbook.md",
+          "section": "7. Appeals, Records, and Departmental Determinations",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_022",
+          "file": "handbook.md",
+          "section": "7.3 Departmental Waiver Determinations for Majors",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 37,
+      "query": "Is there a special attendance rule for students performing in University theater productions?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any explicit rule regarding a special attendance provision for students performing in University theater productions.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_004",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_005",
+          "file": "handbook.md",
+          "section": "2. Attendance Requirements",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_016",
+          "file": "handbook.md",
+          "section": "5.2 Instructor Adjustment of Examination Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "handbook_015",
+          "file": "handbook.md",
+          "section": "5. Prerequisite Waivers",
+          "page": null
+        }
+      ]
+    },
+    {
+      "id": 38,
+      "query": "May students convert an incomplete grade into pass-fail grading after the course has ended?",
+      "expected_state": "UNANSWERED",
+      "predicted_state": "UNANSWERED",
+      "is_correct": true,
+      "answer": "The provided passages do not contain any explicit rule or guidance regarding whether a student may convert an incomplete grade to a pass\u2011fail grade after the course has ended.",
+      "citations": [],
+      "retrieved_chunks": [
+        {
+          "chunk_id": "handbook_006",
+          "file": "handbook.md",
+          "section": "2.4 Final Examination Attendance Eligibility",
+          "page": null
+        },
+        {
+          "chunk_id": "academic_regulations_002",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 2
+        },
+        {
+          "chunk_id": "academic_regulations_003",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 3
+        },
+        {
+          "chunk_id": "academic_regulations_001",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 1
+        },
+        {
+          "chunk_id": "academic_regulations_005",
+          "file": "academic_regulations.pdf",
+          "section": "Academic Regulations",
+          "page": 5
+        }
+      ]
+    }
+  ]
+}
