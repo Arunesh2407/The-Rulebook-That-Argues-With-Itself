@@ -1,0 +1,9 @@
+fee_category,payment_deadline,late_payment_penalties,pro_rata_tuition_refund_percentages
+Tuition deposit,May 15,USD 75 after May 15; USD 150 after June 15,Before classes: 100%; Drop-add week 1: 90%; Drop-add week 2: 75%; After week 2: 0%
+Term tuition balance,August 20,2% of balance after deadline; additional 3% after 30 days; registration hold after 45 days,Before classes: 100%; Drop-add week 1: 85%; Drop-add week 2: 60%; Week 3: 25%; After week 3: 0%
+Laboratory and studio fees,First day of class,USD 40 after deadline; non-refundable after materials issue,Before first lab: 100%; Before second lab: 50%; After second lab: 0%
+Technology services fee,August 20,USD 25 after deadline; account restriction after 30 days,Before classes: 100%; Drop-add week 1: 70%; After week 1: 0%
+Residence meal plan,August 10,USD 50 after deadline; plan downgrade blocked after first meal service,Before move-in: 100%; First 7 days: 80%; Days 8-14: 50%; After day 14: 0%
+Graduation application fee,October 1,USD 30 late filing fee through November 1; no filing after degree audit lock,Non-refundable once degree audit begins
+Course overload surcharge,End of drop-add,3% of surcharge after deadline; overload may be administratively removed,Drop-add week 1: 100%; Drop-add week 2: 50%; After drop-add: 0%
+International student services fee,August 20,USD 35 after deadline; immigration service hold after 30 days,Before visa document issue: 100%; After document issue: 20%; After census: 0%

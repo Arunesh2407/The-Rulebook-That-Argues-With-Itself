@@ -1,0 +1,323 @@
+[
+  {
+    "id": 1,
+    "query": "Who controls the official academic record when an informal advising comment differs from registrar records?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "handbook.md",
+        "section": "1. General Academic Regulations",
+        "excerpt": "The registrar may rely on institutional records unless a student provides timely documentary evidence demonstrating an error."
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "query": "What kinds of conduct are listed as academic integrity violations?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "handbook.md",
+        "section": "4. Academic Integrity & Disciplinary Sanctions",
+        "excerpt": "Prohibited conduct includes plagiarism, unauthorized collaboration, fabrication of data, contract cheating, impersonation, misuse of artificial intelligence contrary to course instructions, possession of unauthorized materials in an assessment, and interference with another student's academic work."
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "query": "What must continuous assessment course outlines identify?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "handbook.md",
+        "section": "3. Continuous Assessment",
+        "excerpt": "Each course outline shall identify the components, weights, due dates, late submission rules, and minimum performance conditions for continuous assessment."
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "query": "What is a student grievance according to the handbook?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "handbook.md",
+        "section": "6. Student Grievances",
+        "excerpt": "A student grievance is a written request for review of an academic decision on the ground that the decision was affected by procedural error, bias, misapplication of a published rule, failure to consider required evidence, or other substantial irregularity."
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "query": "What documentation is needed to request a prerequisite waiver?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "handbook.md",
+        "section": "4.1 Authority for Prerequisite Waivers",
+        "excerpt": "A request for waiver must include the student's transcript, the course description for any proposed equivalent study, evidence of relevant professional or laboratory experience where applicable, and a statement explaining how the student's preparation satisfies the learning outcomes protected by the prerequisite."
+      }
+    ]
+  },
+  {
+    "id": 6,
+    "query": "Who schedules final examinations under the academic regulations?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "academic_regulations.pdf",
+        "section": "1. Examination Policies",
+        "excerpt": "Final examinations are scheduled by the registrar to support integrity, accessibility, room utilization, and the orderly submission of grades."
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "query": "What is an incomplete grade used for?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "academic_regulations.pdf",
+        "section": "2. Make-up Exams & Incompletes",
+        "excerpt": "An incomplete grade is a temporary transcript notation used only when a small, clearly defined portion of work remains and the student was otherwise passing the course at the time the condition arose."
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "query": "What kinds of learning do the credit transfer protocols exclude?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "academic_regulations.pdf",
+        "section": "3. Credit Transfer Protocols",
+        "excerpt": "Transfer credit is not awarded for informal learning, attendance without assessment, non-credit workshops, or professional experience unless a separate prior learning assessment process is approved."
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "query": "What may academic probation conditions include?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "academic_regulations.pdf",
+        "section": "4. Academic Probation & Disqualification",
+        "excerpt": "Probation conditions may include credit limits, mandatory advising, repeated course plans, learning support, and restrictions on overload registration."
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "query": "What is the late penalty for the term tuition balance?",
+    "expected_state": "ANSWERS",
+    "citations": [
+      {
+        "file": "fee_schedule.csv",
+        "section": "Term tuition balance",
+        "excerpt": "2% of balance after deadline; additional 3% after 30 days; registration hold after 45 days"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "query": "Can a student with 68% attendance sit a final exam if the instructor says strong continuous evaluation performance justifies it?",
+    "expected_state": "CONTRADICTION",
+    "citations": [
+      {
+        "file": "handbook.md",
+        "section": "2.4 Final Examination Attendance Eligibility",
+        "excerpt": "No student whose verified attendance in a course is below seventy-five percent (75%) may sit for the final examination in that course, and no faculty member, advisor, chair, or committee has discretion to reduce, excuse, round, or otherwise waive this minimum examination eligibility floor."
+      },
+      {
+        "file": "handbook.md",
+        "section": "5.2 Instructor Adjustment of Examination Eligibility",
+        "excerpt": "An individual course instructor may lower the final examination eligibility threshold to sixty-five percent (65%) for a student who has demonstrated satisfactory continuous evaluation performance, timely completion of formative work, and responsible engagement with required academic support."
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "query": "Who has final authority to waive a prerequisite course: the Dean of Academic Affairs or the Department Head for a major?",
+    "expected_state": "CONTRADICTION",
+    "citations": [
+      {
+        "file": "handbook.md",
+        "section": "4.1 Authority for Prerequisite Waivers",
+        "excerpt": "Only the Dean of Academic Affairs has authority to waive a published prerequisite course, and recommendations from advisors, instructors, program coordinators, or department heads are advisory only until the Dean issues a written approval."
+      },
+      {
+        "file": "handbook.md",
+        "section": "7.3 Departmental Waiver Determinations for Majors",
+        "excerpt": "For majors housed within a department, the Department Head possesses final, non-reviewable authority to grant prerequisite waivers when the Head determines that the student's preparation is substantially equivalent to the stated prerequisite."
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "query": "For a medical absence, does the student need hospital documentation within 48 hours of missed work or Campus Health Center validation within seven business days after returning?",
+    "expected_state": "CONTRADICTION",
+    "citations": [
+      {
+        "file": "academic_regulations.pdf",
+        "section": "3.2 Medical Absence Petitions Affecting Assessed Work",
+        "excerpt": "Medical absence petitions require hospital documentation submitted within forty-eight (48) hours of the missed work to be eligible for an excused grade; petitions filed after that period shall be recorded for information only and shall not alter the grade."
+      },
+      {
+        "file": "handbook.md",
+        "section": "6.1 Medical Excuse Validation",
+        "excerpt": "Medical excuses must be validated by the Campus Health Center within seven business days following the student's return to classes, and the validation must identify the period during which attendance or assessed work was medically impracticable."
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "query": "May a student miss a laboratory practical to attend a sibling's wedding and still receive attendance credit?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 15,
+    "query": "Can students in a different time zone take a final examination remotely at midnight local time?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 16,
+    "query": "Is there a tuition fee waiver for inter-college varsity athletes who travel for championship events?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 17,
+    "query": "How many counseling sessions are required before a medical leave request can be approved?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 18,
+    "query": "Are students allowed to use a smartwatch as a calculator during statistics examinations?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 19,
+    "query": "Can a student replace a failed course grade by completing a massive open online course over winter break?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 20,
+    "query": "What refund applies if a student drops only the lecture but keeps the linked laboratory section?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 21,
+    "query": "Does the University provide a grace period for fee payments when a bank transfer is delayed by a holiday in another country?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 22,
+    "query": "May a graduating senior appeal directly to the president to bypass the ordinary grievance process?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 23,
+    "query": "Can a student with a religious fasting obligation receive extra time on all continuous assessments?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 24,
+    "query": "Are doctoral dissertation defenses governed by the same attendance percentage used for undergraduate final exams?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 25,
+    "query": "May a student audit a prerequisite after enrolling in the advanced course for credit?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 26,
+    "query": "Does military reserve training automatically excuse missed quizzes without documentation?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 27,
+    "query": "Are international exchange students exempt from the technology services fee if they bring their own laptop?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 28,
+    "query": "Can a department award transfer credit for professional experience without a prior learning assessment process?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 29,
+    "query": "What is the deadline for requesting a pet-friendly residence accommodation during final examinations?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 30,
+    "query": "Can a student submit a grievance anonymously through a class representative?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 31,
+    "query": "Is a student allowed to pause an online proctored exam because of neighborhood construction noise?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 32,
+    "query": "What meal plan refund applies when a student withdraws for study abroad after day 20 of the term?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 33,
+    "query": "Do siblings enrolled at the same time receive a discount on laboratory and studio fees?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 34,
+    "query": "Can students postpone a make-up examination because their internship supervisor schedules a conflicting shift?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 35,
+    "query": "Are campus parking fines treated as academic holds under the fee schedule?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 36,
+    "query": "Can a student use a department social media announcement as official notice of a deadline extension?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 37,
+    "query": "Is there a special attendance rule for students performing in University theater productions?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  },
+  {
+    "id": 38,
+    "query": "May students convert an incomplete grade into pass-fail grading after the course has ended?",
+    "expected_state": "UNANSWERED",
+    "citations": []
+  }
+]
